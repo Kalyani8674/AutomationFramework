@@ -58,6 +58,11 @@ public class BaseClass
 	{
 		driver.quit();
 	}
+	@AfterClass
+	public void closebrowser()
+	{
+		driver.quit();
+	}
 
 	
 
